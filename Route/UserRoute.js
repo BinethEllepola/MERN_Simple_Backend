@@ -6,6 +6,6 @@ const User = require("../Model/UserModel");
 const UserController = require("../Controlers/UserControllers");
 
 router.get("/",UserController.getAllUsers);
-
+router.post("/",UserController.addUsers);
 //export
 module.exports = router;
